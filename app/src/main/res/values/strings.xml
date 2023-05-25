@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidDasar</string>
+    <string name="length">Panjang</string>
+    <string name="width">Lebar</string>
+    <string name="height">Tinggi</string>
+    <string name="count">Hitung</string>
+    <string name="result">Hasil</string>
+</resources>
