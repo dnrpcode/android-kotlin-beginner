@@ -13,4 +13,11 @@
         android:layout_marginBottom="16dp"
         android:textAllCaps="false"
         android:text="@string/move_activity_calculate_core" />
+
+    <Button
+        android:id="@+id/btn_move_activity_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/move_with_data" />
 </LinearLayout>
