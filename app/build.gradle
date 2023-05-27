@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    //membuat code Parcelable menjadi lebih singkat tanpa perlu "Add Implementation Parcelable"
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
 }
 
 android {
