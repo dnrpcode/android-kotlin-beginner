@@ -40,10 +40,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.btn_move_activity_object -> {
                 val person = Person(
-                    "DicodingAcademy",
-                    5,
-                    "academy@dicoding.com",
-                    "Bandung"
+                    "Dani Prayogi",
+                    19,
+                    "dnrpcode@gmail.com",
+                    "Banjarnegara"
                 )
                 val moveWithObjectIntent = Intent(this@MainActivity, MoveWithObjectActivity::class.java)
                 moveWithObjectIntent.putExtra(MoveWithObjectActivity.EXTRA_PERSON, person)
