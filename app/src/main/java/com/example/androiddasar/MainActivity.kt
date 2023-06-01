@@ -42,6 +42,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val btnMoveForResult:Button = findViewById(R.id.btn_move_for_result)
         btnMoveForResult.setOnClickListener(this)
         tvResult = findViewById(R.id.tv_result)
+
+        val btnMoveBasicLayout:Button = findViewById(R.id.btn_basic_layout)
+        btnMoveBasicLayout.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -78,6 +81,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.btn_move_for_result -> {
                 val moveForResultIntent = Intent(this@MainActivity, MoveForResultActivity::class.java)
+                resultLauncher.launch(moveForResultIntent)
+            }
+
+            R.id.btn_basic_layout -> {
+                val moveForResultIntent = Intent(this@MainActivity, BasicLayout::class.java)
                 resultLauncher.launch(moveForResultIntent)
             }
         }

@@ -42,6 +42,13 @@
         android:layout_marginBottom="16dp"
         android:text="@string/move_with_result" />
 
+    <Button
+        android:id="@+id/btn_basic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/basic_layout" />
+
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
