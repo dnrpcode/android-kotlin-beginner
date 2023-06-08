@@ -48,6 +48,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnMoveBasicConstraintLayout:Button = findViewById(R.id.btn_basic_constraint_layout)
         btnMoveBasicConstraintLayout.setOnClickListener(this)
+
+        val btnMoveRecyclerView:Button = findViewById(R.id.btn_recycler_view)
+        btnMoveRecyclerView.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -94,6 +97,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.btn_basic_constraint_layout -> {
                 val moveForResultIntent = Intent(this@MainActivity, BasicConstraintLayoutActivity::class.java)
+                resultLauncher.launch(moveForResultIntent)
+            }
+
+            R.id.btn_recycler_view -> {
+                val moveForResultIntent = Intent(this@MainActivity, RecyclerViewActivity::class.java)
                 resultLauncher.launch(moveForResultIntent)
             }
         }
